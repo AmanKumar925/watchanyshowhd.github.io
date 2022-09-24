@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<title>Watch Any Show</title>
+  <meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+<b:skin><![CDATA[]]></b:skin>
+<link href='' rel='icon' type='image/png'/>
+  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css' rel='stylesheet'/>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'/>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js'/>
+<style>
+ 
+  .col-container {
+  display: table;
+  width: 100%;
+}
+.col {
+  display: table-cell;
+  padding: 16px;
+}
+  
+
+a:link {
+
+text-decoration: none;
+
+}
+  
+ .center_nev{
+   margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  }
+  #main{
+  width:100%;
+   display:inline-block;
+  }
+  .download_menu
+  {
+  background-color: blue;
+  width: 40%;
+  text-align:center;
+  display:inline-block;
+  height:200px;
+  }
+  
+  .div_main_2
+  {
+  background-color: green;
+  width: 50%;
+  display:inline-block;
+  text-align:center;
+  height:200px;
+  }
+  #download_button
+  {
+  
+text-align: center;
+  
+
+  
+  }
+  
+  #sec_text{
+  font-size: 20px;
+font-weight:bold;
+  color:grey;
+  margin:15px;
+  }
+  
+  #bottom_menu{
+  bottom:0;
+  width:100%;
+  text-align: center;
+  position:fixed;
+  box-shadow: 15px 0px 8px  0px rgba(0, 0, 0,0.19);
+  height:60px;
+  background-color:white;
+  
+  }
+  
+   
+  
+  #toolbar_main{
+  width:100%;
+  height:50px;
+  text-align: center;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0,0.15); 
+ 
+  }
+  
+   #toolbar_main img{
+  border-radius:13px;
+  padding: 6px;
+  }
+  
+  #toolbar_main p{
+  
+  font-size: 20px;
+  font-weight:bold;
+  margin:0px 0px 0px 
+  }
+  
+  #main_heading{
+  
+
+ font-size: 20px;
+  margin:0px 0px 0px 0px;
+  font-weight: bold;
+  
+  
+  }
+  
+  .text_heading{
+  display:inline-block;
+
+  width: calc(100% - 350px - 10px);
+  
+  }
+  
+  #round_icon{
+ margin:30px 0px 10px 20px;
+  border-radius: 20px;
+  }
+  
+  #download_div{
+  display:inline-block;
+
+  background-color:blue;
+  }
+.center {
+ text-align: center;
+  width:100%;
+}
+  
+  #security{
+  font-size: 40px;
+  margin:10px;
+  font-weight:600;
+
+}
+  .verified_section{
+  vertical-align: middle;
+  margin: 30px 0px 0px 0px;
+
+height:80px;
+  
+  }
+  .verified_section p
+  {
+  margin:0px 5px 0px 0px; 
+  font-size: 15px;
+  color: #008CBA;
+  display:inline;
+  }
+  .verified_section img
+  {
+  margin:0px 0px 3px 0px; 
+  
+  }
+  
+  .scimages {
+  text-align: center;
+  width:100%;
+  margin:0px 0px;
+  }
+   
+  .scimages img{
+  margin: 20px 0px;
+  }
+  .verified_image {
+   text-align: center;
+  }
+  
+  .headingmanager {
+  background-color:red;
+  }
+  .iconimage img{
+  border-radius: 50%;
+  margin: 54px 10px 20px 40px;
+}
+
+
+  
+#contact{
+  width:150px;
+  height:80px;
+  background-color:#f44336;
+  bottom:0;
+float:right;
+  font-weight:bold;
+  font-size:20px;
+  text-align:center;
+  color:white;
+  margin:10px;
+  }
+
+  
+.button {
+  background-color: #f44336; /* Green */
+  border: none;
+  color: white;
+  border-radius: 50px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+  letter-spacing: 1.7px;
+  padding:10px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  width:250px;
+  margin: 5px auto;
+  cursor: pointer;
+}
+
+  .buttontelegram {
+  background-color: #20B2AA; /* Green */
+  border: none;
+  color: white;
+  border-radius: 50px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+  letter-spacing: 1.7px;
+  padding:10px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  width:250px;
+  margin: 5px auto;
+  cursor: pointer;
+}
+.button3 {background-color: #f44336;} /* Red */ 
+  
+ 
+  
+  </style>
+  
+</head>
+
+<b:section id='test'/>
+
+<body>
+  
+  <div id='toolbar_main'>
+    <p><img alt='icon' height='45' src='https://www.dropbox.com/s/cvimz385k34gy6u/icon.jpg?dl=1' width='45'/>Watch Any Show</p>
+  </div>
+  
+  <div class='col-container'>
+  <div class='col' style='background:white'>
+     <img alt='icon' height='80' id='round_icon' src='https://www.dropbox.com/s/cvimz385k34gy6u/icon.jpg?dl=1' width='80'/>
+  
+  </div>
+
+  <div class='col' style='background:white'>
+    <p id='main_heading'>Watch &amp; Download Movies(Dual Audio)</p>
+  </div>
+
+  
+</div>
+
+  
+
+  
+  <div id='download_button'>
+   <div class='button'>
+<a href='https://github.com/AmanKumar925/WatchAnyShow/blob/main/WatchAnyShow_Hollywood.apk?raw=true' style='color:white;'><b>Hollywood</b></a>
+  </div>
+    <div class='button'>
+<a href='https://github.com/AmanKumar925/WatchAnyShow/blob/main/WatchAnyShow_Bollywood.apk?raw=true' style='color:white;'><b>Bollywood</b></a>
+  </div>
+      <div class='buttontelegram'>
+<a href='https://t.me/watchanyshowofficials' style='color:white;'><b>Download From Telegram</b></a>
+  </div>
+  
+    
+    
+     <div class='verified_section'>
+  
+  <div class='verified_image'>
+ <img height='20' src='https://static.snaptube.in/snaptube/0b3e46-ic_safety.svg' width='20'/>
+  <p>  Security Varified </p>
+   <img height='20' src='https://static.snaptube.in/snaptube/b467b9-ic_down.svg' width='20'/>
+  </div>
+    </div>
+    </div>
+ 
+  <div class='center'>
+     <div class='scimages'>
+       <img height='550' src='https://www.dropbox.com/s/onw1p0hdrellr3f/sc1.jpg?dl=1' width='300'/>
+       
+       
+       <img height='550' src='https://www.dropbox.com/s/0lifh8sgy7oa20t/sc2.jpg?dl=1' width='300'/>
+          <br/>
+    <img height='140' src='https://www.dropbox.com/s/mflutrrsnrard38/vidmate%20app%20%26%20apk%20download%20_%20official%20site.png?dl=1' width='130'/>  
+    <p id='security'>Security</p>
+    <p id='sec_text'>Watch Any Show has not launched Google Play yet Due to Google&#39;s Policy which prohibits Movies Due To Copyrights Issue. Watch Any Show is safe, not virus or malware, thanks for your trust.</p>
+    </div>
+  </div>
+ 
+    <div class='scimages'>
+    <img height='140' src='http://assets.stickpng.com/images/588a6507d06f6719692a2d15.png' width='130'/>
+    <p id='security'>categories</p>
+    <p id='sec_text'>Hollywood Movies, Bollywood Movies, Anime, Web Series, Netflix, Cartoons, Animated Movies And Much More</p>
+  </div>
+  
+   <div class='scimages'>
+    <img height='140' src='https://static.vecteezy.com/system/resources/previews/000/421/044/large_2x/music-note-icon-vector-illustration.jpg' width='130'/>  
+    <p id='security'>Language</p>
+    <p id='sec_text'>English and Hindi Both Language Are Available With English Subtitles</p>
+  </div>
+  
+  
+    <div id='bottom_menu'>
+    <div class='download_button'>
+  
+   
+  </div>
+  </div>
+  
+ 
+ 
+  <div id='contact'><a href='https://t.me/watchanyshowofficials' style='color:white;'><b>Contact Us</b></a></div>
+ 
+ <br/>
+  <br/><br/><br/>
+ 
+  <script>
+    
+</script>
+
+</body>
+
+</html>
